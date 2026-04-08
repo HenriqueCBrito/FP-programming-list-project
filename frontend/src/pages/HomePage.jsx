@@ -95,10 +95,6 @@ export default function HomePage() {
           <div className="ranking-panel-head">
             <p className="eyebrow">Ranking da turma</p>
             <h2>Top 10 por nota</h2>
-            <p className="ranking-caption">
-              Empates compartilham colocacao. Ex.: dois em 1o lugar, proximo em
-              3o.
-            </p>
           </div>
 
           {rankingStatus === "loading" ? (
