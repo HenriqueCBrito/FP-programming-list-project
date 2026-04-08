@@ -1,0 +1,2027 @@
+[
+  {
+    "listId": "1",
+    "token": "s8PdL2xQ7nVm",
+    "name": "Julia Sultanum Villa Chan",
+    "score": 95,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo e conseguiu resolver quase toda a lista com boa lógica. O principal ponto a revisar está na atenção aos casos específicos que o enunciado pede, especialmente quando existem exceções ou situações especiais para tratar. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "A lógica está correta e a classificação foi feita do jeito esperado. Você ainda mostrou outra forma de resolver, o que pode ser visto como um extra, não como erro.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e interpretou corretamente a regra de prioridade.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "5/10",
+        "summary": "Você acertou a parte de escolher a rota sem acidente quando só uma delas está com problema. Mas faltaram dois casos importantes do enunciado: quando as duas rotas têm acidente, a saída deveria ser \"Avaliação manual necessária\"; e quando os tempos são iguais sem acidente, deveria ser \"Rotas equivalentes\".",
+        "errorLine": "elif acidente_a and acidente_b:\n    if tempo_a <= tempo_b:\n        print(f\"Ambas com acidente. Rota A é a menos demorada: {tempo_a} min\")",
+        "note": "# Se ambas as rotas tiverem acidente, não era para escolher uma\n# O correto era exibir: \"Avaliação manual necessária\"\n# Também faltou tratar o caso de tempos iguais sem acidente"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. Você separou bem os casos e aplicou as condições de forma clara.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Os intervalos foram tratados direito, inclusive o caso inválido fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica cobre os perfis pedidos e a saída está coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. O tratamento de \"onibus\" e \"ônibus\" foi feito corretamente.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou bem o desconto e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reescreveu a estrutura de forma funcional. Como sugestão, essa correção também poderia ser feita de forma mais direta apenas reorganizando a ordem das comparações e ajustando os sinais para evitar que um caso mais amplo capturasse o valor antes da hora.",
+        "errorLine": "if fluxo > 20:\n    print(\"Baixo\")\nelif fluxo > 50:\n    print(\"Alto\")\nelif fluxo > 80:\n    print(\"Crítico\")",
+        "note": "# Sua correção ficou funcional\n# Como sugestão, daria para corrigir de forma mais simples\n# Bastava reorganizar as condições do maior para o menor\n# E ajustar as comparações para não capturar o caso antes da hora"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. Você respeitou a ordem das decisões e aplicou bem as combinações com and e or.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "H4rT9mK2vQxP",
+    "name": "LUIZ FERNANDO SOTERO LYRA",
+    "score": 79,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu a base do conteúdo e conseguiu acertar várias questões importantes. Agora o principal é prestar mais atenção na interpretação exata do enunciado e nos casos que faltam ser tratados, principalmente quando a questão pede intervalos, percentuais ou todos os cenários possíveis da decisão. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "9/10",
+        "summary": "A lógica principal da classificação funcionou bem, e você também exibiu a linha final pedida. O pequeno desconto aqui é mais pela modelagem da entrada, porque a questão pedia o valor do fluxo diretamente, e você resolveu calculando esse fluxo a partir de carros e minutos.",
+        "errorLine": "qc= int(input('Digite a quantidade de carros que entraram: '))\nmin= int(input('Digite os minutos que passaram: '))\nfluxo= qc/min",
+        "note": "# A lógica da classificação está certa\n# Mas a questão pedia receber o valor do fluxo diretamente\n# Você acabou criando uma entrada diferente da pedida"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou corretamente a condição de prioridade com or e tratou bem as entradas booleanas em texto.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "4/10",
+        "summary": "Você acertou os casos em que há acidente em uma rota e na outra não, e também acertou quando as duas têm acidente. O problema é que faltou um caso muito importante: quando nenhuma rota tem acidente, o programa deveria escolher a menor rota. Do jeito que está, em vários cenários não sai resposta nenhuma.",
+        "errorLine": "elif rota_a==rota_b:\n  print('Rotas equivalentes')",
+        "note": "# Faltou tratar o caso sem acidente e com tempos diferentes\n# O correto era escolher a rota com menor tempo\n# Do jeito que está, esse caso fica sem saída"
+      },
+      {
+        "number": 4,
+        "score": "8/10",
+        "summary": "A ideia da lógica está certa, mas houve erro no limite do 5 km para entregas urgentes. Pela questão, distância até 5 km ainda é \"Entrega imediata\".",
+        "errorLine": "if urgente.lower()=='true' and distancia < 5:\n  print('Entrega imediata')\nelif urgente.lower()==\"true\" and distancia >= 5:\n  print('Entrega prioritária')",
+        "note": "# O limite de 5 km ficou errado no caso urgente\n# Se a distância for 5, ainda deveria ser \"Entrega imediata\"\n# O correto era usar <= 5 nesse primeiro caso"
+      },
+      {
+        "number": 5,
+        "score": "2/10",
+        "summary": "Aqui o principal problema foi a interpretação do enunciado. A questão pedia ocupação em percentual de 0 a 100, mas você tratou como quantidade de bicicletas em um bicicletário com 30 vagas fixas. Isso muda a lógica da questão.",
+        "errorLine": "Vagas= 30\nocup= int(input('Digite a ocupação do bicicletário(Em número de bicicletas): '))",
+        "note": "# A questão pedia percentual de 0 a 100\n# Você resolveu usando quantidade de bicicletas e vagas fixas\n# Isso muda o problema e a lógica pedida no enunciado"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. O match/case foi usado direitinho e as saídas ficaram compatíveis com os perfis pedidos.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os comandos e usou corretamente o operador | para onibus e ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "6/10",
+        "summary": "A lógica do desconto está correta, mas faltou mostrar o percentual de desconto aplicado e também faltou formatar o valor final com duas casas decimais, como o enunciado pedia.",
+        "errorLine": "if emb.lower() == 'true'and mod.lower() == 'true':\n  print(f'O valor final da compra é de {valor*0.85}')",
+        "note": "# A lógica do desconto está certa\n# Mas faltou exibir o percentual de desconto aplicado\n# Também faltou mostrar o valor final com duas casas decimais"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reescreveu a lógica de forma funcional e respeitou a ideia da classificação por faixas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das condições foi respeitada e a combinação de and/or foi aplicada do jeito esperado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "9xK2mPq7RaN4",
+    "name": "MARIA FERNANDA BASTOS DE CARVALHO",
+    "score": 72,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa. Há indício forte de resposta-base compartilhada com outra lista já vista, porque a estrutura, vários trechos e alguns erros específicos coincidem bastante.",
+    "closing": "No geral, você mostrou que entendeu a base do conteúdo e conseguiu acertar bem algumas questões importantes. O que mais puxou a nota para baixo foram alguns limites numéricos errados, trocas de resposta em casos específicos e um erro forte de lógica na questão 9. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "8/10",
+        "summary": "A ideia principal da classificação ficou certa, mas houve erro no limite do 20. Pelo enunciado, 20 já entra em fluxo moderado, e no seu código ele ainda cai em fluxo baixo. Além disso, a mensagem final não ficou no formato pedido.",
+        "errorLine": "if fluxo <= 20:\n   print(\"fluxo baixo\")",
+        "note": "# O valor 20 deveria entrar como fluxo moderado\n# O correto era usar fluxo < 20 no primeiro caso\n# Também faltou exibir a mensagem final no formato pedido"
+      },
+      {
+        "number": 2,
+        "score": "7/10",
+        "summary": "A lógica geral da prioridade ficou boa, mas o limite de idade ficou errado. A prioridade por idade começa em 60, não em 65.",
+        "errorLine": "if idade >= 65 or possui_deficiencia == \"true\" or crianca_de_colo == \"true\":",
+        "note": "# A condição de idade está errada\n# O correto era idade >= 60\n# O restante da lógica principal ficou certo"
+      },
+      {
+        "number": 3,
+        "score": "3/10",
+        "summary": "Você acertou quando só uma rota tem acidente. O problema é que, quando as duas têm acidente, o enunciado pedia sempre \"Avaliação manual necessária\", sem escolher rota. E quando não há acidente e os tempos são iguais, o correto era \"Rotas equivalentes\", não \"avaliacao manual\".",
+        "errorLine": "if há_acidente_na_rota_A == \"true\" and há_acidente_na_rota_B == \"true\":\n    if tempo_rota_a < tempo_rota_b:\n        print(\" vá pela rota A\")\n    elif tempo_rota_b < tempo_rota_a:\n        print(\" vá pela rota B\")\n    else:\n        print(\"avaliacao manual necessaria\")",
+        "note": "# Se as duas rotas têm acidente, não era para escolher uma rota\n# O correto era sempre exibir \"Avaliação manual necessária\"\n# Sem acidente e tempos iguais, o correto era \"Rotas equivalentes\""
+      },
+      {
+        "number": 4,
+        "score": "8/10",
+        "summary": "A estrutura condicional ficou boa, mas no último caso o enunciado pedia \"Entrega padrão\" e você colocou \"Entrega normal\".",
+        "errorLine": "else:\n  print(\"Entrega normal\")",
+        "note": "# A lógica dos casos ficou boa\n# O problema foi a saída final\n# O correto era exibir \"Entrega padrão\""
+      },
+      {
+        "number": 5,
+        "score": "8/10",
+        "summary": "A maior parte da classificação ficou boa, mas o valor 30 ficou no grupo errado. Pela questão, 30 já deveria entrar em ocupação moderada, e no seu código ele acaba indo para baixa ocupação.",
+        "errorLine": "elif ocupacao >= 31:\n  print (\"ocupacao moderada\")",
+        "note": "# O valor 30 deveria entrar como ocupação moderada\n# O correto era começar esse intervalo em 30\n# O restante da classificação ficou próximo do esperado"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Mesmo usando match/case, a lógica do perfil ficou coerente e as respostas correspondem ao que a questão pedia.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "8/10",
+        "summary": "A lógica principal ficou correta, mas faltou aceitar o comando com acento, \"ônibus\", que também era válido no enunciado. Além disso, a resposta para bike ficou mais vaga do que a pedida.",
+        "errorLine": "case \"onibus\":\n    print(\" mostrando mapa de onibus\")",
+        "note": "# Faltou tratar também o comando \"ônibus\"\n# O ideal era aceitar as duas formas\n# A saída de bike poderia ficar mais próxima do enunciado"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou o desconto certo e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "0/10",
+        "summary": "Aqui a lógica ficou invertida. Do jeito que está, quase qualquer fluxo abaixo de 80 cai como crítico, e os outros intervalos não foram organizados corretamente.",
+        "errorLine": "if fluxo < 80:\n print (\" fluxo critico\")\nelif fluxo >= 50:\n print (\"fluxo alto\")\nelif fluxo >= 20:\n print (\" fluxo medio\")\nelse:\n print (\"fluxo baixo\")",
+        "note": "# A lógica da classificação ficou invertida\n# O correto era testar os intervalos na ordem certa\n# Assim como está, a resposta sai errada para quase todos os casos"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "N7cW3zL8pR5a",
+    "name": "MARIA JULIA SODRE IBERTI",
+    "score": 0,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu a base do conteúdo e está no caminho certo. Os principais problemas ficaram em comparações de variáveis booleanas com texto e em alguns detalhes de interpretação da lógica pedida. Agora é continuar praticando para ganhar mais precisão nesses pontos. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita da forma esperada e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "3/10",
+        "summary": "Aqui teve um erro importante de lógica. Você transformou as respostas em booleano corretamente, mas depois comparou essas variáveis com a string \"Sim\". Por isso, na prática, só a idade funciona como critério de prioridade.",
+        "errorLine": "if idade >= 60 or possui_deficiencia == \"Sim\" or crianca_de_colo == \"Sim\":",
+        "note": "# possui_deficiencia e crianca_de_colo já viraram True/False\n# Então não deveria comparar com \"Sim\"\n# O correto era usar as variáveis direto na condição"
+      },
+      {
+        "number": 3,
+        "score": "3/10",
+        "summary": "A estrutura geral da questão está montada, mas houve erro na lógica principal. Nos casos com acidente em apenas uma rota, você mandou escolher a rota errada. Além disso, a comparação com \"sim\"/\"nao\" pode falhar se a pessoa digitar exatamente como no input mostrado.",
+        "errorLine": "if ha_acidente_na_rota_a == \"sim\" and ha_acidente_na_rota_b == \"nao\":\n   print(\"Rota A\")\nelif ha_acidente_na_rota_a == \"nao\" and ha_acidente_na_rota_b == \"sim\":\n   print(\"Rota B\")",
+        "note": "# Se há acidente na rota A, o correto era escolher a rota B\n# Se há acidente na rota B, o correto era escolher a rota A\n# A lógica principal dessas duas saídas ficou invertida"
+      },
+      {
+        "number": 4,
+        "score": "8/10",
+        "summary": "A ideia da lógica está correta e os casos foram bem separados. O pequeno desconto aqui é porque você compara com \"sim\"/\"nao\", enquanto no próprio input mostrou \"Sim/Nao\", então a resposta pode falhar dependendo de como a pessoa digitar.",
+        "errorLine": "urgente = input(\"É urgente? (Sim/Nao): \")\nif urgente == \"sim\" and distancia_km <= 5:",
+        "note": "# A lógica dos casos está certa\n# O ponto de atenção é a comparação exata com o texto digitado\n# Se o usuário digitar \"Sim\", essa condição não entra"
+      },
+      {
+        "number": 5,
+        "score": "7/10",
+        "summary": "A maior parte da lógica ficou certa, mas faltou tratar corretamente valores negativos. Como o primeiro if testa só se é menor que 30, um valor como -5 seria classificado como \"Baixa ocupação\", quando deveria ser \"Valor inválido\".",
+        "errorLine": "if ocupacao < 30:\n   print(\"Baixa ocupação\")",
+        "note": "# Faltou validar antes se o valor está entre 0 e 100\n# Valores negativos também são inválidos\n# O ideal era testar ocupacao < 0 ou ocupacao > 100 primeiro"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os perfis pedidos e as saídas ficaram coerentes.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. O uso do or para \"onibus\" e \"ônibus\" foi feito do jeito esperado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto direitinho e também mostrou o percentual e o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reorganizou a lógica de forma funcional e resolveu o problema principal da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "6/10",
+        "summary": "Aqui aconteceu um problema parecido com o da questão 2. A variável chuva já virou True/False, mas depois foi comparada com \"Sim\". Assim, a condição de chuva não funciona como deveria.",
+        "errorLine": "chuva = input(\"Está chovendo? (True/False): \") == \"True\"\nelif fluxo_veiculos >= 80 or chuva == \"Sim\":\n   print(\"Atenção para mobilidade\")",
+        "note": "# chuva já foi convertida para True/False\n# Então não deveria comparar com \"Sim\"\n# O correto era usar: elif fluxo_veiculos >= 80 or chuva:"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "Q2vM8tY4kLp9",
+    "name": "MARIA MENDONÇA PERIQUITO FALANGOLA",
+    "score": 0,
+    "theme": "high_pink",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo e conseguiu resolver a maior parte da lista com boa lógica. Os principais descontos vieram mais por casos específicos que ficaram faltando e por respostas que não entregaram exatamente tudo o que o enunciado pedia. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "8/10",
+        "summary": "A lógica da classificação ficou correta, mas faltou o requisito adicional da questão: exibir também a mensagem final no formato \"Situação da via: [classificação]\".",
+        "errorLine": "if fluxo < 20:\n print('Fluxo baixo')\nelif fluxo >= 20 and fluxo <= 49:\n print('Fluxo moderado')\nelif fluxo >= 50 and fluxo <= 79:\n print('Fluxo alto')\nelse:\n print('Fluxo crítico')",
+        "note": "# A classificação está certa\n# Mas faltou a mensagem final no formato pedido\n# Isso afeta a resposta completa da questão"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou direito as respostas True/False em texto.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "6/10",
+        "summary": "Você acertou os casos com acidente em uma rota, nas duas rotas e também quando os tempos são iguais. O problema é que faltou tratar um caso importante: quando não há acidente em nenhuma rota e os tempos são diferentes, deveria escolher a rota de menor tempo.",
+        "errorLine": "elif rota_A==rota_B:\n print('rotas equivalentes')",
+        "note": "# Faltou tratar o caso sem acidente e com tempos diferentes\n# O correto era escolher a rota com menor tempo\n# Do jeito que está, esse cenário fica sem resposta"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. Mesmo usando if em vez de if/elif/else, as condições são exclusivas e a lógica funciona.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A lógica principal ficou boa e os intervalos foram bem separados. O único ponto de atenção é que valores negativos acabariam entrando como \"Baixa ocupação\", quando deveriam ser inválidos. O zero está correto como \"Baixa ocupação\".",
+        "errorLine": "if ocupação < 30:\n print(\"Baixa ocupação\")",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "8/10",
+        "summary": "A lógica principal ficou certa, mas faltou aceitar o comando com acento, \"ônibus\", que também era válido no enunciado.",
+        "errorLine": "elif comandos == \"onibus\":\n print(\"Mostrando linhas e paradas disponíveis\")",
+        "note": "# Faltou tratar também o comando \"ônibus\"\n# O ideal era usar or para aceitar as duas formas\n# Exemplo: comandos == \"onibus\" or comandos == \"ônibus\""
+      },
+      {
+        "number": 8,
+        "score": "4/10",
+        "summary": "Você acertou a lógica de decidir qual desconto se aplica, mas a questão pedia calcular o valor final da compra e exibir o percentual de desconto aplicado. Do jeito que está, o programa só mostra mensagens como \"Desconto de 15%\".",
+        "errorLine": "if  usou_embalagem.lower() == 'true' and usou_modal.lower() == 'true':\n print(\"Desconto de 15%\")\nelif usou_embalagem.lower() == 'true' or usou_modal.lower() == 'true':\n print(\"Desconto de 8%\")\nelse:\n print(\"Sem desconto\")",
+        "note": "# A lógica do desconto está certa\n# Mas faltou calcular o valor final da compra\n# Também faltou exibir o percentual e o valor final com duas casas decimais"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reescreveu a lógica de forma funcional e respeitou as faixas da classificação.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "B6xR1nP7dKw3",
+    "name": "MARIANA VALENÇA CAVALCANTI SILVA",
+    "score": 75,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo nas questões que respondeu, e várias delas ficaram corretas. O que mais puxou a nota para baixo foi a ausência de duas questões no arquivo e alguns casos específicos da lógica da questão 3. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou corretamente a lógica do or e tratou bem as condições de prioridade.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "5/10",
+        "summary": "Você acertou a parte de escolher a rota sem acidente quando só uma delas está com problema. Mas faltaram dois casos importantes do enunciado: quando as duas rotas têm acidente, a saída deveria ser \"Avaliação manual necessária\"; e quando os tempos são iguais sem acidente, deveria ser \"Rotas equivalentes\".",
+        "errorLine": "elif acidente_a and acidente_b:\n    if tempo_a <= tempo_b:\n        print(f\"Ambas com acidente. Rota A é a menos demorada: {tempo_a} min\")",
+        "note": "# Se ambas as rotas tiverem acidente, não era para escolher uma\n# O correto era exibir: \"Avaliação manual necessária\"\n# Também faltou tratar o caso de tempos iguais sem acidente"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. Você separou bem os casos e aplicou as condições de forma clara.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Os intervalos foram tratados direito, inclusive o caso inválido fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica cobre os perfis pedidos e a saída está coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "0/10",
+        "summary": "A questão 7 não apareceu no código enviado. Como não houve resposta implementada, ela fica zerada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Questão não respondida no arquivo enviado"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou bem o desconto e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "0/10",
+        "summary": "A questão 9 não apareceu no código enviado. Como não houve resposta implementada, ela fica zerada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Questão não respondida no arquivo enviado"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. Você respeitou a ordem das decisões e aplicou bem as combinações com and e or.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "T9mQ4vL2xNc7",
+    "name": "MATEUS FEITOSA FERREIRA BARROS SILVA",
+    "score": 0,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu muito bem a base do conteúdo e resolveu a lista com boa lógica do começo ao fim. Seu código ficou consistente nas decisões e conseguiu cobrir corretamente os casos pedidos nas questões. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem as entradas booleanas em texto e aplicou corretamente a lógica do atendimento prioritário.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica cobre os casos com acidente em uma rota, nas duas rotas, sem acidente e também quando os tempos são iguais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação da entrega ficou coerente com as regras da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os intervalos e também validou corretamente valores fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados de forma adequada e a saída está coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive \"onibus\" e \"ônibus\".",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reorganizou a lógica de forma funcional e resolveu o problema principal da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "K3pW8rT1mVx6",
+    "name": "MATEUS DE OLIVEIRA CARVALHO",
+    "score": 0,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu muito bem a base do conteúdo e resolveu a lista com boa lógica do começo ao fim. Seu código ficou consistente nas decisões e conseguiu cobrir corretamente os casos pedidos nas questões. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem as entradas booleanas em texto e aplicou corretamente a lógica do atendimento prioritário.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica cobre os casos com acidente em uma rota, nas duas rotas, sem acidente e também quando os tempos são iguais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação da entrega ficou coerente com as regras da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os intervalos e também validou corretamente valores fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados de forma adequada e a saída está coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive \"onibus\" e \"ônibus\".",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reorganizou a lógica de forma funcional e resolveu o problema principal da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "L7qN2vR9xMp4",
+    "name": "PEDRO HENRIQUE BEZERRA CAVALCANTI DE MELLO",
+    "score": 100,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "Questão 9 — 10/10 Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada. Linha com erro: — Observação em código: # Sem erro relevante de lógica # Como sugestão, você poderia expandir a classificação completa # Mas a correção principal da ordem das condições foi feita corretamente",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita corretamente e a mensagem final também apareceu.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou corretamente as entradas booleanas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. Você cobriu bem os casos com acidente, sem acidente e também o empate entre as rotas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica da classificação da entrega ficou coerente com o enunciado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Os intervalos foram tratados bem e o caso inválido também foi considerado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados corretamente e a saída está de acordo com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica\n# Como sugestão, você poderia expandir a classificação completa\n# Mas a correção principal da ordem das condições foi feita corretamente"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "R5xT1kP8mQv2",
+    "name": "NICOLAS MENDONCA VAZ DE ALMEIDA",
+    "score": 87,
+    "theme": "high_pink",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo e conseguiu resolver quase toda a lista com boa lógica. Os principais pontos a revisar estão em alguns detalhes de estrutura da decisão e nos limites exatos dos intervalos, porque isso muda a resposta final da questão. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final também apareceu.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou corretamente as condições de prioridade.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "4/10",
+        "summary": "Você acertou a ideia de escolher a rota sem acidente e também colocou a avaliação manual necessária. O problema é que, depois desse primeiro bloco, o código continua executando outra decisão pelos tempos, o que pode fazer a questão imprimir duas respostas para o mesmo caso.",
+        "errorLine": "if ha_acidente_na_rota_a == 'sim' and ha_acidente_na_rota_b == 'não':\n    print('Rota B')\nelif ha_acidente_na_rota_a == 'não' and ha_acidente_na_rota_b == 'sim':\n    print('Rota A')\nelif ha_acidente_na_rota_a == 'sim' and ha_acidente_na_rota_b == 'sim':\n    print('Avaliação manual necessária')\nif tempo_rota_a == tempo_rota_b:\n    print('Rotas equivalentes')",
+        "note": "# A decisão pelos tempos ficou separada do bloco principal\n# Assim, em alguns casos o programa pode imprimir duas respostas\n# O ideal era tratar os tempos só no caso sem acidente"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica da entrega ficou coerente com o enunciado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A classificação principal ficou boa. O único ponto é que valores negativos acabam entrando como \"Baixa ocupação\", quando deveriam ser inválidos. O zero está correto como \"Baixa ocupação\".",
+        "errorLine": "if ocupacao < 30:\n    print('Baixa ocupação')",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "8/10",
+        "summary": "A lógica do desconto ficou correta, e você mostrou o percentual e o valor final nos casos com desconto. O desconto aqui é porque o valor final não foi mostrado com duas casas decimais e, no caso sem desconto, faltou manter o mesmo padrão de saída.",
+        "errorLine": "print('O valor final é: ', valord1)",
+        "note": "# A lógica do desconto está certa\n# Mas o valor final deveria aparecer com duas casas decimais\n# Também era melhor manter o mesmo padrão de saída no caso sem desconto"
+      },
+      {
+        "number": 9,
+        "score": "6/10",
+        "summary": "Você montou a estrutura da questão, mas errou os limites exatos dos intervalos. Do jeito que está, 20 entra como baixo, 50 entra como moderado e 80 entra como alto, o que não bate com o enunciado.",
+        "errorLine": "if Fluxo <= 20:\n    print('Fluxo baixo')\nelif Fluxo <= 50:\n    print('Fluxo moderado')\nelif Fluxo <= 80:\n    print('Fluxo alto')",
+        "note": "# Os limites 20, 50 e 80 ficaram errados\n# O correto era separar os intervalos exatamente como no enunciado\n# Esses detalhes mudam a classificação pedida"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "M8vL3qT7xNk1",
+    "name": "PEDRO ALVES DOS SANTOS NETO",
+    "score": 0,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu a base do conteúdo e está no caminho certo. Os principais problemas ficaram em comparações de variáveis booleanas com texto e em alguns detalhes de interpretação da lógica pedida. Agora é continuar praticando para ganhar mais precisão nesses pontos. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita da forma esperada e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "3/10",
+        "summary": "Aqui teve um erro importante de lógica. Você transformou as respostas em booleano corretamente, mas depois comparou essas variáveis com a string \"Sim\". Por isso, na prática, só a idade funciona como critério de prioridade.",
+        "errorLine": "if idade >= 60 or possui_deficiencia == \"Sim\" or crianca_de_colo == \"Sim\":",
+        "note": "# possui_deficiencia e crianca_de_colo já viraram True/False\n# Então não deveria comparar com \"Sim\"\n# O correto era usar as variáveis direto na condição"
+      },
+      {
+        "number": 3,
+        "score": "3/10",
+        "summary": "A estrutura geral da questão está montada, mas houve erro na lógica principal. Nos casos com acidente em apenas uma rota, você mandou escolher a rota errada. Além disso, a comparação com \"sim\"/\"nao\" pode falhar se a pessoa digitar exatamente como no input mostrado.",
+        "errorLine": "if ha_acidente_na_rota_a == \"sim\" and ha_acidente_na_rota_b == \"nao\":\n    print(\"Rota A\")\nelif ha_acidente_na_rota_a == \"nao\" and ha_acidente_na_rota_b == \"sim\":\n    print(\"Rota B\")",
+        "note": "# Se há acidente na rota A, o correto era escolher a rota B\n# Se há acidente na rota B, o correto era escolher a rota A\n# A lógica principal dessas duas saídas ficou invertida"
+      },
+      {
+        "number": 4,
+        "score": "8/10",
+        "summary": "A ideia da lógica está correta e os casos foram bem separados. O pequeno desconto aqui é porque você compara com \"sim\"/\"nao\", enquanto no próprio input mostrou \"Sim/Nao\", então a resposta pode falhar dependendo de como a pessoa digitar.",
+        "errorLine": "urgente = input(\"É urgente? (Sim/Nao): \")\nif urgente == \"sim\" and distancia_km <= 5:",
+        "note": "# A lógica dos casos está certa\n# O ponto de atenção é a comparação exata com o texto digitado\n# Se o usuário digitar \"Sim\", essa condição não entra"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A lógica principal da classificação ficou correta, inclusive para 0%, que entra como \"Baixa ocupação\". O único ponto de atenção é que valores negativos acabam entrando nessa primeira condição, quando deveriam ser tratados como inválidos.",
+        "errorLine": "if ocupacao < 30:\n    print(\"Baixa ocupação\")",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os perfis pedidos e as saídas ficaram coerentes.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. O uso do or para \"onibus\" e \"ônibus\" foi feito do jeito esperado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto direitinho e também mostrou o percentual e o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reorganizou a lógica de forma funcional e resolveu o problema principal da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "6/10",
+        "summary": "Aqui aconteceu um problema parecido com o da questão 2. A variável chuva já virou True/False, mas depois foi comparada com \"Sim\". Assim, a condição de chuva não funciona como deveria.",
+        "errorLine": "chuva = input(\"Está chovendo? (True/False): \") == \"True\"\nelif fluxo_veiculos >= 80 or chuva == \"Sim\":\n    print(\"Atenção para mobilidade\")",
+        "note": "# chuva já foi convertida para True/False\n# Então não deveria comparar com \"Sim\"\n# O correto era usar: elif fluxo_veiculos >= 80 or chuva:"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "P4tX9mR2vLk6",
+    "name": "PEDRO AUGUSTO SILVERIO BORBA DURANDO",
+    "score": 65,
+    "theme": "mid_hope",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu bem a base em várias questões, principalmente nas primeiras, mas perdeu pontos em erros que afetam bastante a lógica e a execução do código. Agora é revisar com mais atenção a associação correta entre condição e saída, além de conferir quando a questão realmente roda do começo ao fim. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação ficou certa e a mensagem final apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou as entradas de forma simples e funcional.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. Você cobriu bem os casos com acidente, sem acidente e também o empate entre as rotas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "0/10",
+        "summary": "A lógica do match/case até segue a ideia da questão, mas aqui o código da questão não roda por causa do import. Em Python, match/case não precisa de import desse tipo.",
+        "errorLine": "import match",
+        "note": "# Esse import quebra a execução da questão\n# match/case é uma estrutura da linguagem, não um módulo para importar\n# O correto era usar match/case direto, sem import"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A classificação principal ficou boa. O único ponto de atenção é que valores negativos acabam entrando como \"Baixa ocupação\", quando deveriam ser inválidos. O zero está correto como \"Baixa ocupação\".",
+        "errorLine": "if ocupacao < 30:\n    print('Baixa ocupação)')",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "2/10",
+        "summary": "Aqui houve erro importante de interpretação. As saídas de turista e comerciante foram trocadas, e o caso gestor nem foi tratado corretamente.",
+        "errorLine": "elif perfil == 'turista':\n    print(\"Exibir fluxo da região e janelas de entrega\")\nelif perfil == 'comerciante':\n    print(\"Exibir indicadores consolidados e alertas estratégicos\")",
+        "note": "# As mensagens de turista e comerciante não correspondem ao enunciado\n# Também faltou o caso correto para gestor\n# A lógica da associação perfil -> saída ficou errada"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "4/10",
+        "summary": "A ideia geral do desconto está certa, mas no caso de um único comportamento sustentável você aplicou 80% de desconto em vez de 8%. Além disso, a questão pedia exibir claramente o percentual aplicado e o valor final.",
+        "errorLine": "valor_compra = valor_compra - valor_compra * 0.8",
+        "note": "# 0.8 significa 80%, não 8%\n# Para 8% o correto era usar 0.08\n# Esse erro muda bastante o valor final da compra"
+      },
+      {
+        "number": 9,
+        "score": "0/10",
+        "summary": "Aqui a questão não funciona corretamente. A variável fluxo foi lida como texto, então as comparações numéricas dão erro. Além disso, a lógica ficou incompleta.",
+        "errorLine": "fluxo = input('Digite o valor do fluxo: ')\nif 50 > fluxo > 20:",
+        "note": "# fluxo deveria ser convertido para int\n# Do jeito que está, a comparação entre texto e número quebra\n# Também faltaram casos importantes da classificação"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "V2kQ7xM4pRt9",
+    "name": "PEDRO HENRIQUE MOURA CABRAL",
+    "score": 0,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo em várias questões, mas perdeu pontos em detalhes que afetam bastante a execução e em respostas que não entregaram tudo o que o enunciado pedia. Agora é revisar com mais atenção a conversão de entrada, os casos que faltam ser tratados e o que exatamente cada questão pede como saída. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "0/10",
+        "summary": "Aqui a questão não roda do jeito que está. Você leu o fluxo com input sem converter para número, então as comparações com 20, 49 e 79 quebram a execução.",
+        "errorLine": "fluxo = input(\"Digite o valor do fluxo: \")\nif fluxo < 20:",
+        "note": "# fluxo ficou como texto\n# Para comparar com números, precisava converter com int()\n# Do jeito que está, a questão quebra na primeira condição"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou direito as respostas True/False em texto.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "6/10",
+        "summary": "Você acertou os casos com acidente em uma rota, nas duas rotas e também quando os tempos são iguais. O problema é que faltou tratar um caso importante: quando não há acidente em nenhuma rota e os tempos são diferentes, deveria escolher a rota de menor tempo.",
+        "errorLine": "elif rota_A==rota_B:\n  print('rotas equivalentes')",
+        "note": "# Faltou tratar o caso sem acidente e com tempos diferentes\n# O correto era escolher a rota com menor tempo\n# Do jeito que está, esse cenário fica sem resposta"
+      },
+      {
+        "number": 4,
+        "score": "9/10",
+        "summary": "A lógica principal da entrega ficou correta. O pequeno desconto aqui é pelo import desnecessário, que não fazia parte do conteúdo da questão e não era necessário para resolver o problema.",
+        "errorLine": "from IPython.core.interactiveshell import dis",
+        "note": "# A lógica da questão está certa\n# Mas esse import não era necessário\n# O ideal era resolver só com as estruturas condicionais pedidas"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A lógica principal ficou boa e os intervalos foram bem separados. O único ponto de atenção é que valores negativos acabariam entrando como \"Baixa ocupação\", quando deveriam ser inválidos. O zero está correto como \"Baixa ocupação\".",
+        "errorLine": "if ocupação < 30:\n  print(\"Baixa ocupação\")",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "8/10",
+        "summary": "A lógica principal ficou certa, mas faltou aceitar o comando com acento, \"ônibus\", que também era válido no enunciado.",
+        "errorLine": "elif comandos == \"onibus\":\n  print(\"Mostrando linhas e paradas disponíveis\")",
+        "note": "# Faltou tratar também o comando \"ônibus\"\n# O ideal era usar or para aceitar as duas formas\n# Exemplo: comandos == \"onibus\" or comandos == \"ônibus\""
+      },
+      {
+        "number": 8,
+        "score": "4/10",
+        "summary": "Você acertou a lógica de decidir qual desconto se aplica, mas a questão pedia calcular o valor final da compra e exibir o percentual de desconto aplicado. Do jeito que está, o programa só mostra mensagens como \"Desconto de 15%\".",
+        "errorLine": "if  usou_embalagem.lower() == 'true' and usou_modal.lower() == 'true':\n  print(\"Desconto de 15%\")\nelif usou_embalagem.lower() == 'true' or usou_modal.lower() == 'true':\n  print(\"Desconto de 8%\")\nelse:\n  print(\"Sem desconto\")",
+        "note": "# A lógica do desconto está certa\n# Mas faltou calcular o valor final da compra\n# Também faltou exibir o percentual e o valor final com duas casas decimais"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Resposta correta. Você reescreveu a lógica de forma funcional e respeitou as faixas da classificação.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "X7mP3vL9tQk2",
+    "name": "RAFAEL COUTINHO BARBOSA",
+    "score": 70,
+    "theme": "mid_garden",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo nas questões que respondeu, e várias delas ficaram corretas. O que mais puxou a nota para baixo foi a ausência de questões importantes no arquivo e a falta de implementação completa da questão 3. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou corretamente as condições de prioridade.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "0/10",
+        "summary": "A questão ficou sem solução. Você coletou os dados e criou as variáveis booleanas, mas não implementou a lógica de decisão nem exibiu a rota recomendada.",
+        "errorLine": "acidente_a = (resp_a == \"s\" or resp_a == \"S\")\nacidente_b = (resp_b == \"s\" or resp_b == \"S\")",
+        "note": "# A questão parou na leitura dos dados\n# Faltou implementar a lógica das rotas\n# Também faltou exibir a resposta final"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação da entrega ficou coerente com o enunciado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Os intervalos foram tratados direito, inclusive o caso inválido fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada e a saída ficou coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "0/10",
+        "summary": "A questão 7 não apareceu no código enviado. Como não houve resposta implementada, ela fica zerada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Questão não respondida no arquivo enviado"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou bem o desconto e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "0/10",
+        "summary": "A questão 9 não apareceu no código enviado. Como não houve resposta implementada, ela fica zerada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Questão não respondida no arquivo enviado"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "D9qR2xT6mLp4",
+    "name": "RAFAEL DE FREITAS TORRES",
+    "score": 60,
+    "theme": "mid_hope",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou boa base em várias questões, principalmente nas que ficaram completas e rodando corretamente. O que mais puxou a nota para baixo foram erros que quebram a execução e alguns pontos de lógica na conversão de entradas e na reescrita da questão 9. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "8/10",
+        "summary": "A lógica da classificação ficou correta, mas faltou o requisito adicional da questão: exibir também a mensagem final no formato \"Situação da via: [classificação]\". Você imprimiu só a classificação em cada caso.",
+        "errorLine": "if fluxo < 20:\nprint('Fluxo baixo')\nelif 20 <= fluxo <= 49:\nprint('Fluxo moderado')\nelif fluxo > 49 and fluxo <= 79:\nprint('Fluxo alto')\nelse:\nprint('Fluxo crítico')",
+        "note": "# A lógica da classificação está certa\n# Mas faltou imprimir a mensagem final no formato pedido\n# O ideal era sempre exibir: \"Situação da via: ...\""
+      },
+      {
+        "number": 2,
+        "score": "2/10",
+        "summary": "Aqui houve um erro importante de lógica. Usar bool(input(...)) não converte o texto \"True/False\" do jeito esperado. Quase qualquer texto digitado vira True, então o atendimento tende a sair prioritário mesmo quando não deveria.",
+        "errorLine": "possui_deficiencia = bool(input('Possui alguma deficiência? '))\nesta_com_crianca_de_colo = bool(input('Está com criança de colo? '))",
+        "note": "# bool(input()) não interpreta \"True\" e \"False\" corretamente\n# Quase qualquer resposta digitada vira True\n# O correto era comparar o texto digitado com \"True\" ou \"False\""
+      },
+      {
+        "number": 3,
+        "score": "0/10",
+        "summary": "A ideia da lógica até ficou boa, mas a questão não roda por causa do erro no método usado para tratar o texto.",
+        "errorLine": "ha_acidente_na_rota_a = input('Acidente na rota A? (True/False) ').strip().capitalizae() == 'True'\nha_acidente_na_rota_b = input('Acidente na rota B? (True/False) ').strip().capitalizae() == 'True'",
+        "note": "# capitalizae() não existe\n# Isso faz a questão quebrar antes de executar a lógica\n# O correto seria usar capitalize()"
+      },
+      {
+        "number": 4,
+        "score": "0/10",
+        "summary": "Aqui a questão também não roda. O uso do operador condicional ficou com sintaxe inválida.",
+        "errorLine": "entrega = 'imediata' if distancia_km <= 5 else entrega = 'prioritária'",
+        "note": "# Essa sintaxe está incorreta em Python\n# Não pode repetir a atribuição dentro do else\n# O correto era usar if/else normal ou um operador condicional válido"
+      },
+      {
+        "number": 5,
+        "score": "5/10",
+        "summary": "A lógica principal da classificação ficou razoável, mas faltou exibir a resposta final. Além disso, valores negativos acabam entrando como \"Baixa ocupação\", quando deveriam ser inválidos.",
+        "errorLine": "if ocupacao < 30:\nsituacao = 'Baixa ocupação'",
+        "note": "# Faltou imprimir a variável situacao no final\n# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. O match/case foi usado de forma adequada e os perfis foram tratados corretamente.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Os comandos válidos foram tratados corretamente, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "5/10",
+        "summary": "Você captou parte da ideia principal, porque fez os casos mais altos sobrescreverem os anteriores. Para vários valores isso até funciona, mas a solução ainda não fica correta para todos os casos e pode quebrar quando o fluxo for menor ou igual a 20.",
+        "errorLine": "if fluxo > 20:\nsit = 'Baixo'\nif fluxo > 50:\nsit = 'Alto'\nif fluxo > 80:\nsit = 'Crítico'",
+        "note": "# Você percebeu parcialmente a ideia da correção\n# Mas os if separados deixam a lógica incompleta\n# Também faltou tratar corretamente os valores menores ou iguais a 20"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "F3vK8pQ1xMt7",
+    "name": "RAFAEL DIMITRI BRITO MEDEIROS",
+    "score": 52,
+    "theme": "low_recover",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu parte da lógica das estruturas condicionais, mas em várias questões faltou usar corretamente as entradas pedidas no enunciado ou fechar a lógica para todos os casos.",
+    "closing": "No geral, você mostrou alguma noção da lógica das condicionais, mas perdeu muitos pontos por não usar corretamente as entradas do problema e por deixar partes importantes fixas no código. Agora o principal é praticar mais a leitura do enunciado e garantir que o programa realmente use os dados informados pelo usuário em cada questão. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "8/10",
+        "summary": "A classificação principal ficou correta, mas faltou o requisito adicional da questão: exibir a mensagem final no formato \"Situação da via: [classificação]\".",
+        "errorLine": "if fluxo <= 19:\n    print(\"Fluxo baixo\")\nelif fluxo >= 20 and fluxo <= 49:\n    print(\"Fluxo moderado\")\nelif fluxo >= 50 and fluxo <= 79:\n    print(\"Fluxo alto\")\nelse:\n    print(\"Fluxo crítico\")",
+        "note": "# A lógica da classificação está certa\n# Mas faltou a mensagem final no formato pedido\n# O ideal era sempre exibir \"Situação da via: ...\""
+      },
+      {
+        "number": 2,
+        "score": "1/10",
+        "summary": "Aqui teve um erro grave de lógica. Você não leu as respostas de deficiência e criança de colo; deixou as duas variáveis fixas como True. Assim, o programa praticamente sempre dá atendimento prioritário.",
+        "errorLine": "possui_deficiencia = True\nesta_com_crianca_de_colo = True",
+        "note": "# As duas condições ficaram fixas como True\n# Isso ignora a entrada do usuário\n# O correto era ler e interpretar essas respostas"
+      },
+      {
+        "number": 3,
+        "score": "2/10",
+        "summary": "A ideia geral da questão aparece, mas a solução ficou muito limitada. Os tempos e acidentes foram fixados no código, e a lógica do caso \"Rotas equivalentes\" ficou errada, porque ela foi ligada ao caso com acidente nas duas rotas.",
+        "errorLine": "tempo_rota_a = 30\ntempo_rota_b = 30\nacidente_rota_a = False\nacidente_rota_b = True\nif tempo_rota_a == tempo_rota_b and acidente_rota_a and acidente_rota_b:\n    print(\"Rotas equivalentes\")",
+        "note": "# Faltou usar entradas reais do usuário\n# \"Rotas equivalentes\" só faz sentido sem acidente\n# A lógica ficou presa a um caso específico, não ao problema geral"
+      },
+      {
+        "number": 4,
+        "score": "2/10",
+        "summary": "A estrutura condicional está certa, mas a variável urgente foi fixada como False. Isso faz a questão ignorar metade importante do problema.",
+        "errorLine": "urgente = False",
+        "note": "# A lógica dos blocos está boa\n# Mas urgente ficou fixo como False\n# O correto era ler esse valor do usuário"
+      },
+      {
+        "number": 5,
+        "score": "7/10",
+        "summary": "A maior parte da classificação ficou aceitável, mas faltou tratar valores negativos como inválidos. Além disso, houve erro de digitação em \"Bixa ocupação\".",
+        "errorLine": "if ocupacao < 30:\n    print(\"Bixa ocupação\")",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# Também houve um erro de escrita na mensagem"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada e as saídas ficaram coerentes.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "6/10",
+        "summary": "A lógica principal está certa, mas você só aceitou \"Onibus\" e \"Ônibus\" com inicial maiúscula. Do jeito que está, entradas como \"onibus\" e \"ônibus\" ficam inválidas.",
+        "errorLine": "elif comandos== \"Onibus\" or comandos==\"Ônibus\":\n     print(\"Mostrando linhas e paradas disponíveis\")",
+        "note": "# Faltou aceitar as formas em minúsculo\n# O ideal era padronizar com lower() antes de comparar\n# Assim você trataria todas as formas válidas"
+      },
+      {
+        "number": 8,
+        "score": "4/10",
+        "summary": "Você calculou um valor final, mas a questão ficou incompleta. O valor da compra foi fixado em 100, faltou informar claramente o percentual aplicado, e a forma de ler True/False ficou fraca.",
+        "errorLine": "valor_compra = 100\nembalagem_retorno = input(\"Usou embalagm de retorno? \").lower() in (\"true\")\nmodal_sustentavel = input(\"Usou modal sustentável? \").lower() in (\"true\")",
+        "note": "# O valor da compra não deveria ser fixo\n# Também faltou exibir claramente o percentual de desconto aplicado\n# O correto era usar o valor informado pelo usuário"
+      },
+      {
+        "number": 9,
+        "score": "4/10",
+        "summary": "Você tentou reorganizar a lógica, mas a correção ficou incompleta. Faltou o caso de fluxo moderado e também o tratamento correto para valores menores ou iguais a 20.",
+        "errorLine": "if fluxo > 20 and fluxo <= 50:\n    print(\"Fluxo baixo\")\nelif fluxo > 50 and fluxo <= 80:\n    print(\"Fluxo alto\")\nelse:\n    print(\"Fluxo crítico\")",
+        "note": "# A ideia de reorganizar a lógica apareceu\n# Mas faltou o caso de fluxo moderado\n# Também ficou errado para valores menores ou iguais a 20"
+      },
+      {
+        "number": 10,
+        "score": "8/10",
+        "summary": "A lógica principal ficou funcional, mas a leitura de chuva com `in (\"true\")` não é a melhor forma de interpretar True/False. Mesmo assim, a ordem das condições ficou próxima do esperado.",
+        "errorLine": "chuva = input(\"Está chovendo? \").lower () in (\"true\")",
+        "note": "# A ordem da lógica ficou boa\n# Mas essa forma de interpretar True/False não é a mais segura\n# O ideal era comparar diretamente com \"true\""
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "J6xN4rT9mQp2",
+    "name": "RAFAELA CHETRIT",
+    "score": 64,
+    "theme": "mid_hope",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu a base do conteúdo e conseguiu acertar bem algumas questões importantes. O que mais puxou a nota para baixo foram alguns limites numéricos errados, trocas de resposta em casos específicos e uma questão respondida no lugar da outra. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "8/10",
+        "summary": "A ideia principal da classificação ficou certa, mas houve erro no limite do 20. Pelo enunciado, 20 já entra em fluxo moderado, e no seu código ele ainda cai em fluxo baixo. Além disso, a mensagem final não ficou no formato pedido.",
+        "errorLine": "if fluxo <= 20:\n   print(\"fluxo baixo\")",
+        "note": "# O valor 20 deveria entrar como fluxo moderado\n# O correto era usar fluxo < 20 no primeiro caso\n# Também faltou exibir a mensagem final no formato pedido"
+      },
+      {
+        "number": 2,
+        "score": "7/10",
+        "summary": "A lógica geral da prioridade ficou boa, mas o limite de idade ficou errado. A prioridade por idade começa em 60, não em 65.",
+        "errorLine": "if idade >= 65 or possui_deficiencia == \"true\" or crianca_de_colo == \"true\":",
+        "note": "# A condição de idade está errada\n# O correto era idade >= 60\n# O restante da lógica principal ficou certo"
+      },
+      {
+        "number": 3,
+        "score": "3/10",
+        "summary": "Você acertou quando só uma rota tem acidente. O problema é que, quando as duas têm acidente, o enunciado pedia sempre \"Avaliação manual necessária\", sem escolher rota. E quando não há acidente e os tempos são iguais, o correto era \"Rotas equivalentes\", não \"avaliação manual\".",
+        "errorLine": "if há_acidente_na_rota_A == \"true\" and há_acidente_na_rota_B == \"true\":\n    if tempo_rota_a < tempo_rota_b:\n        print(\" vá pela rota A\")\n    elif tempo_rota_b < tempo_rota_a:\n        print(\" vá pela rota B\")\n    else:\n        print(\"avaliacao manual necessaria\")",
+        "note": "# Se as duas rotas têm acidente, não era para escolher uma rota\n# O correto era sempre exibir \"Avaliação manual necessária\"\n# Sem acidente e tempos iguais, o correto era \"Rotas equivalentes\""
+      },
+      {
+        "number": 4,
+        "score": "8/10",
+        "summary": "A estrutura condicional ficou boa, mas no último caso o enunciado pedia \"Entrega padrão\" e você colocou \"Entrega normal\".",
+        "errorLine": "else:\n  print(\"Entrega normal\")",
+        "note": "# A lógica dos casos ficou boa\n# O problema foi a saída final\n# O correto era exibir \"Entrega padrão\""
+      },
+      {
+        "number": 5,
+        "score": "8/10",
+        "summary": "A maior parte da classificação ficou boa, mas o valor 30 ficou no grupo errado. Pela questão, 30 já deveria entrar em ocupação moderada, e no seu código ele acaba indo para baixa ocupação.",
+        "errorLine": "elif ocupacao >= 31:\n  print (\"ocupacao moderada\")",
+        "note": "# O valor 30 deveria entrar como ocupação moderada\n# O correto era começar esse intervalo em 30\n# O restante da classificação ficou próximo do esperado"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Mesmo usando match/case, a lógica do perfil ficou coerente e as respostas correspondem ao que a questão pedia.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "0/10",
+        "summary": "Aqui você respondeu outra questão no lugar da questão 7. Em vez de interpretar comandos como rota, alerta, bike e ônibus, você repetiu a lógica de perfil da questão anterior.",
+        "errorLine": "perfil= input(\"digite o perfil: \")\nmatch perfil:\n  case \"morador\":\n    print(\"acesse os servicos locais e tenha acesso aos horarios do bairro\")",
+        "note": "# A resposta não corresponde ao que a questão 7 pediu\n# Aqui deveria haver tratamento de comandos operacionais\n# Na prática, a questão ficou sem resposta"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou o desconto certo e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "0/10",
+        "summary": "Aqui a lógica ficou invertida. Do jeito que está, quase qualquer fluxo abaixo de 80 cai como crítico, e os outros intervalos não foram organizados corretamente.",
+        "errorLine": "if fluxo < 80:\n print (\" fluxo critico\")\nelif fluxo >= 50:\n print (\"fluxo alto\")\nelif fluxo >= 20:\n print (\" fluxo medio\")\nelse:\n print (\"fluxo baixo\")",
+        "note": "# A lógica da classificação ficou invertida\n# O correto era testar os intervalos na ordem certa\n# Assim como está, a resposta sai errada para quase todos os casos"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "C8pL2vR7xMk5",
+    "name": "RENATO RODRIGUES DOS SANTOS NETO",
+    "score": 81,
+    "theme": "high_pink",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo e acertou várias questões importantes. Os principais descontos vieram de alguns casos de lógica invertida, de estruturas que podem gerar mais de uma saída e de detalhes do que exatamente o enunciado pedia como resposta final. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "8/10",
+        "summary": "A lógica da classificação ficou correta, mas faltou o requisito adicional da questão: exibir também a mensagem final no formato \"Situação da via: [classificação]\".",
+        "errorLine": "if fluxo < 20:\n    print(\"Fluxo baixo\")\nif fluxo >= 20 and fluxo <= 49:\n    print(\"Fluxo moderado\")\nif fluxo >= 50 and fluxo <= 79:\n    print(\"Fluxo alto\")\nif fluxo >= 80:\n    print(\"Fluxo crítico\")",
+        "note": "# A classificação principal está certa\n# Mas faltou a mensagem final no formato pedido\n# O ideal era sempre exibir \"Situação da via: ...\""
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou corretamente os critérios de prioridade.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "2/10",
+        "summary": "Aqui houve erro importante de lógica. Quando só uma rota tem acidente, você recomendou a rota errada. Além disso, faltou tratar o caso sem acidente e com tempos diferentes.",
+        "errorLine": "if ha_acidente_na_rota_a == \"Sim\" and ha_acidente_na_rota_b == \"Não\":\n    print(\"Rota A\")\nif ha_acidente_na_rota_a == \"Não\" and ha_acidente_na_rota_b == \"Sim\":\n    print(\"Rota B\")",
+        "note": "# Se a rota A tem acidente, o correto era escolher a rota B\n# Se a rota B tem acidente, o correto era escolher a rota A\n# Também faltou tratar o caso sem acidente e com tempos diferentes"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. Mesmo usando vários if, as condições são exclusivas e a lógica funciona.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "7/10",
+        "summary": "A classificação principal ficou próxima do esperado, mas a estrutura com vários if faz um valor negativo imprimir mais de uma resposta. Por exemplo, um valor menor que 0 entra em \"Baixa ocupação\" e depois em \"Valor inválido\".",
+        "errorLine": "if ocupacao < 30:\n    print(\"Baixa ocupação\")\n...\nif ocupacao < 0 or ocupacao > 100:\n    print(\"Valor inválido\")",
+        "note": "# O caso inválido deveria ser tratado antes\n# Do jeito que está, valores negativos podem gerar duas saídas\n# O ideal era usar if/elif/else"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica\n# Como sugestão, você poderia expandir a classificação completa\n# Mas a correção principal da ordem das condições foi feita corretamente"
+      },
+      {
+        "number": 10,
+        "score": "4/10",
+        "summary": "A ideia das condições está próxima do correto, mas a estrutura com vários if faz o programa imprimir mais de uma resposta em alguns casos. Aqui era importante usar uma cadeia com elif para respeitar a ordem da decisão.",
+        "errorLine": "if fluxo_veiculos >= 80 and ocupacao_estacionamento >= 90:\n    print(\"Sistema em estado crítico\")\nif fluxo_veiculos >= 80 or chuva == \"Sim\":\n    print(\"Atenção para mobilidade\")\nif ocupacao_estacionamento >= 90:\n    print(\"Alta pressão por vagas\")\nelse:\n    print(\"Operação dentro da normalidade\")",
+        "note": "# Aqui precisava ser if / elif / elif / else\n# Do jeito que está, alguns cenários podem imprimir várias respostas\n# A ordem da decisão da questão não foi respeitada"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "Y4tQ9mL1xRp6",
+    "name": "SOPHIA VASCONCELOS RAMOS DE SENA PEREIRA",
+    "score": 100,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu muito bem a base do conteúdo e resolveu a lista com boa lógica do começo ao fim. Seu código ficou consistente nas decisões e conseguiu cobrir corretamente os casos pedidos nas questões. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita corretamente e a mensagem final também apareceu.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem as entradas booleanas em texto e aplicou corretamente a lógica do atendimento prioritário.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. Você cobriu bem os casos com acidente, sem acidente e também o empate entre as rotas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica da classificação da entrega ficou coerente com o enunciado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Os intervalos foram tratados direito, inclusive o caso inválido fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada e a saída ficou coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica\n# Como sugestão, você poderia expandir a classificação completa\n# Mas a correção principal da ordem das condições foi feita corretamente"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "U7mK3vP8xQn2",
+    "name": "TAINÁ MACEDO SANTA CRUZ",
+    "score": 93,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu muito bem a base do conteúdo e resolveu quase toda a lista com boa lógica. Os principais descontos vieram de detalhes em tratamento de intervalo e da reescrita da questão 9, que ainda ficou com classificação errada em alguns casos. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação ficou coerente com a questão e a mensagem final da situação da via apareceu.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou corretamente as entradas booleanas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os casos com acidente, sem acidente e também o empate entre as rotas.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica da entrega ficou coerente com o enunciado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A classificação principal ficou boa, mas faltou tratar corretamente valores negativos. Do jeito que está, um valor menor que 0 entraria como \"Baixa ocupação\", quando deveria ser inválido.",
+        "errorLine": "if ocupacao < 30:\n    print(\"Baixa ocupação\")",
+        "note": "# O zero está correto como \"Baixa ocupação\"\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. O match/case foi usado bem e os perfis foram tratados corretamente.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive as duas formas de ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "4/10",
+        "summary": "Você percebeu a ideia principal de mudar a ordem das condições, o que já é um ponto positivo. Mas a classificação ainda ficou errada: o intervalo de fluxo moderado não apareceu corretamente e valores menores ou iguais a 20 acabaram indo para \"Fluxo inválido\", quando não era isso que a questão pedia.",
+        "errorLine": "elif fluxo > 20 and fluxo <= 50:\n    print(\"Fluxo baixo\")\nelse :\n    print(\"Fluxo inválido\")",
+        "note": "# A ideia de reorganizar a ordem apareceu\n# Mas o intervalo moderado ficou errado\n# E valores menores ou iguais a 20 não deveriam virar \"inválido\""
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "E2qX7mR4pLt9",
+    "name": "THOBIAS VAN DEN HOEK DAS NEVES",
+    "score": 55,
+    "theme": "low_recover",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu parte da lógica das estruturas condicionais, mas em várias questões faltou usar corretamente as entradas pedidas e algumas variáveis ficaram fixas de um jeito que altera totalmente o resultado.",
+    "closing": "No geral, você mostrou alguma base de lógica, principalmente nas estruturas condicionais mais simples. O que mais puxou sua nota para baixo foi deixar várias informações fixas no código em vez de realmente usar entradas do usuário, porque isso muda totalmente a resposta do programa. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação ficou coerente com a questão e a mensagem final da situação da via apareceu.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "1/10",
+        "summary": "Aqui houve um erro grave de lógica. As variáveis de deficiência e criança de colo ficaram fixas como verdadeiras, então o programa praticamente sempre dá atendimento prioritário.",
+        "errorLine": "deficiencia = True or False\ncriança = True or False",
+        "note": "# True or False sempre resulta em True\n# Isso ignora a entrada real do problema\n# O correto era ler essas informações do usuário"
+      },
+      {
+        "number": 3,
+        "score": "1/10",
+        "summary": "A estrutura da questão apareceu, mas a lógica ficou comprometida porque os acidentes também foram fixados como verdadeiros. Além disso, a ordem das condições impede o caso de avaliação manual, e o teste final de rotas equivalentes está incorreto.",
+        "errorLine": "acidente_A =  True or False\nacidente_B = True or False",
+        "note": "# Essas variáveis ficaram sempre True\n# Isso muda totalmente o comportamento da questão\n# Também faltou organizar melhor a ordem das condições"
+      },
+      {
+        "number": 4,
+        "score": "2/10",
+        "summary": "A estrutura condicional até lembra a lógica da questão, mas a variável urgente ficou fixa como verdadeira. Assim, o programa ignora os casos em que a entrega não é urgente.",
+        "errorLine": "urgente = True or False",
+        "note": "# True or False sempre vira True\n# Isso faz a questão ignorar metade dos casos pedidos\n# O correto era ler esse valor do usuário"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A classificação principal ficou boa, mas faltou tratar corretamente valores negativos. Do jeito que está, um valor abaixo de 0 entra como baixa ocupação, quando deveria ser inválido.",
+        "errorLine": "if ocupação < 30:\n  print(\"Baixa ocupação.\")",
+        "note": "# O zero está correto como baixa ocupação\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive onibus e ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "5/10",
+        "summary": "A lógica do desconto está correta e o cálculo final também, mas a questão ficou muito presa a valores fixos em vez de receber os dados do usuário. Isso enfraquece bastante a solução como programa geral.",
+        "errorLine": "valor_compra = 78.00\nusou_embalagem_retorno = True\nusou_modal_sustentavel = False",
+        "note": "# A lógica do desconto está certa\n# Mas os dados ficaram fixos no código\n# O correto era receber essas informações por entrada"
+      },
+      {
+        "number": 9,
+        "score": "5/10",
+        "summary": "Você percebeu parte da ideia principal de reorganizar a ordem, mas a classificação ainda ficou incompleta. O intervalo moderado não apareceu, e valores menores ou iguais a 20 ficaram sem tratamento.",
+        "errorLine": "if fluxo > 20 and fluxo < 51:\n    print(\"Fluxo Baixo\")\nelif fluxo > 50 and fluxo < 81:\n    print(\"Fluxo Alto\")\nelif fluxo > 80:\n    print(\"Fluxo Crítico\")",
+        "note": "# A ideia de reorganizar a ordem apareceu\n# Mas faltou o caso de fluxo moderado\n# Também faltou tratar corretamente valores menores ou iguais a 20"
+      },
+      {
+        "number": 10,
+        "score": "2/10",
+        "summary": "A ordem do if/elif está boa, mas os dados da questão ficaram fixos e a variável chuva também ficou sempre verdadeira. Assim, o programa não resolve o problema de forma geral.",
+        "errorLine": "fluxo_veiculos = 75\nocupacao_estacionamento = 87\nchuva = True or False",
+        "note": "# Os dados ficaram fixos no código\n# True or False sempre resulta em True\n# O correto era ler as entradas do usuário"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "W9vL1kT6mQp3",
+    "name": "TIAGO DE MEDEIROS VITALINO",
+    "score": 0,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu muito bem a base do conteúdo e resolveu a lista com boa lógica do começo ao fim. Seu código ficou consistente nas decisões e conseguiu cobrir corretamente os casos pedidos nas questões. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem as entradas booleanas em texto e aplicou corretamente a lógica do atendimento prioritário.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica cobre os casos com acidente em uma rota, nas duas rotas, sem acidente e também quando os tempos são iguais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação da entrega ficou coerente com as regras da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os intervalos e também validou corretamente valores fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados de forma adequada e a saída está coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive \"onibus\" e \"ônibus\".",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica\n# Como sugestão, você poderia expandir a classificação completa\n# Mas a correção principal da ordem das condições foi feita corretamente"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "G5pR8xM2vLt4",
+    "name": "TIAGO XAVIER DE BRITO NETO",
+    "score": 50,
+    "theme": "low_recover",
+    "overall": "Você foi mal nesta lista. De forma geral, deu para perceber dificuldade em aplicar a lógica das estruturas condicionais e em interpretar corretamente algumas regras do enunciado.",
+    "closing": "No geral, você mostrou alguma base de lógica, principalmente nas estruturas condicionais mais simples. O que mais puxou sua nota para baixo foi deixar várias informações fixas no código em vez de realmente usar entradas do usuário, porque isso muda totalmente a resposta do programa. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "A lógica da classificação ficou correta e a mensagem final da situação da via apareceu.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "1/10",
+        "summary": "Aqui teve um erro grave de lógica. As variáveis de deficiência e criança ficaram fixas como verdadeiras, então o programa praticamente sempre dá atendimento prioritário.",
+        "errorLine": "deficiencia = True or False\ncriança = True or False",
+        "note": "# True or False sempre resulta em True\n# Isso ignora a entrada real do usuário\n# O correto era ler essas informações do usuário"
+      },
+      {
+        "number": 3,
+        "score": "1/10",
+        "summary": "A estrutura da questão apareceu, mas a lógica ficou comprometida porque os acidentes também foram fixados como verdadeiros. Além disso, a ordem das condições impede o caso de avaliação manual, e o teste final de rotas equivalentes está incorreto.",
+        "errorLine": "acidente_A = True or False\nacidente_B = True or False",
+        "note": "# Essas variáveis ficaram sempre True\n# Isso muda totalmente o comportamento da questão\n# Também faltou organizar melhor a ordem das condições"
+      },
+      {
+        "number": 4,
+        "score": "2/10",
+        "summary": "A estrutura condicional até lembra a lógica da questão, mas a variável urgente ficou fixa como verdadeira. Assim, o programa ignora os casos em que a entrega não é urgente.",
+        "errorLine": "urgente = True or False",
+        "note": "# True or False sempre vira True\n# Isso faz a questão ignorar metade dos casos pedidos\n# O correto era ler esse valor do usuário"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A classificação principal ficou boa, mas faltou tratar corretamente valores negativos. Do jeito que está, um valor abaixo de 0 entra como baixa ocupação, quando deveria ser inválido.",
+        "errorLine": "if ocupação < 30:\n  print(\"Baixa ocupação.\")",
+        "note": "# O zero está correto como baixa ocupação\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados da forma esperada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "9/10",
+        "summary": "A lógica principal ficou correta e você tratou bem rota, alerta, bike, onibus e ônibus. O pequeno desconto é por aceitar também \"bicicleta\", que não estava entre os comandos válidos pedidos.",
+        "errorLine": "elif comandos == \"bicicleta\":\n  print(\"Mostrando infraestrutura cicloviária\")",
+        "note": "# A lógica principal está boa\n# Mas \"bicicleta\" não era um comando válido pedido\n# O ideal era aceitar só os comandos do enunciado"
+      },
+      {
+        "number": 8,
+        "score": "2/10",
+        "summary": "A lógica do desconto existe, mas a questão ficou presa a valores fixos em vez de receber os dados do usuário. Além disso, as variáveis booleanas também ficaram fixadas, o que altera totalmente o resultado.",
+        "errorLine": "valor_compra = 98\nusou_embalagem = True or False\nusou_modal_sustentavel = True or False",
+        "note": "# O valor da compra não deveria ser fixo\n# As condições também ficaram sempre True\n# O correto era ler tudo por entrada do usuário"
+      },
+      {
+        "number": 9,
+        "score": "4/10",
+        "summary": "Você tentou reorganizar a lógica, mas a correção ficou incompleta. Faltou o caso de fluxo moderado e também o tratamento correto para valores menores ou iguais a 20.",
+        "errorLine": "if fluxo > 20 and fluxo < 51:\n    print(\"Fluxo Baixo\")\nelif fluxo > 50 and fluxo < 81:\n    print(\"Fluxo Alto\")\nelif fluxo > 80:\n    print(\"Fluxo Crítico\")",
+        "note": "# A ideia de reorganizar a ordem apareceu\n# Mas faltou o caso de fluxo moderado\n# Também faltou tratar corretamente valores menores ou iguais a 20"
+      },
+      {
+        "number": 10,
+        "score": "2/10",
+        "summary": "A ordem das condições está parecida com a da questão, mas os dados ficaram fixos no código e a variável chuva também ficou sempre verdadeira. Assim, o programa não resolve o problema de forma geral.",
+        "errorLine": "fluxo_veiculos = 75\nocupacao_estacionamento = 87\nchuva = True or False",
+        "note": "# Os dados ficaram fixos no código\n# True or False sempre resulta em True\n# O correto era ler as entradas do usuário"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "Z3mQ7vL9kRp1",
+    "name": "TOMÉ BRENNAND DE SOUZA LEÃO BEZERRA",
+    "score": 80,
+    "theme": "high_pink",
+    "overall": "Você foi bem na lista, mas ainda pode melhorar. De forma geral, deu para perceber que você entendeu boa parte da lógica das estruturas condicionais e conseguiu resolver várias questões com uma base boa.",
+    "closing": "No geral, você mostrou que entendeu bem a base do conteúdo e acertou várias questões importantes. Os principais descontos vieram de detalhes de interpretação da saída pedida, do tratamento incompleto da questão 3 e de um erro de tipo na questão 10 que impede a execução correta. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "7/10",
+        "summary": "A classificação principal ficou correta, mas você mudou a entrada da questão para quantidade de veículos e minutos, e no final a mensagem pedida saiu com o valor numérico do fluxo em vez da classificação.",
+        "errorLine": "print(f\"Situação da via: {fluxo}\")",
+        "note": "# A questão pedia a situação da via com a classificação\n# Aqui foi impresso o valor numérico do fluxo\n# O correto era mostrar \"Situação da via: Fluxo ...\"\n# Também não precisava mudar a entrada para veículos e minutos"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou bem a lógica do or e tratou corretamente as entradas em texto.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "4/10",
+        "summary": "Você acertou os casos em que só uma rota tem acidente e também o caso em que ambas têm acidente. O problema é que, quando não há acidente, o programa não escolhe de fato a rota menor, e o caso de rotas equivalentes ficou mal posicionado e não funciona como deveria.",
+        "errorLine": "elif acidentea.lower() == \"false\" and acidenteb.lower() == \"false\":\n  print (\"Escolha a rota com menor tempo\")",
+        "note": "# Sem acidente, era preciso comparar rota_a e rota_b\n# O programa deveria escolher A, B ou \"Rotas equivalentes\"\n# Do jeito que está, ele só imprime uma frase genérica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica da entrega ficou coerente com o enunciado.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "9/10",
+        "summary": "A classificação principal ficou boa, mas faltou tratar corretamente valores negativos. Do jeito que está, um valor abaixo de 0 entra como \"Baixa ocupação\", quando deveria ser inválido.",
+        "errorLine": "if ocupacao < 30:\n  print(\"Baixa ocupação\")",
+        "note": "# O zero está correto como baixa ocupação\n# O ponto de atenção são valores negativos\n# O ideal era validar primeiro se a ocupação está entre 0 e 100"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. O match/case foi usado bem e os perfis foram tratados corretamente.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive onibus e ônibus.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você aplicou os descontos certos e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica\n# Como sugestão, você poderia expandir a classificação completa\n# Mas a correção principal da ordem das condições foi feita corretamente"
+      },
+      {
+        "number": 10,
+        "score": "0/10",
+        "summary": "Aqui a questão não roda corretamente, porque a ocupação do estacionamento foi lida como texto e depois comparada com número.",
+        "errorLine": "ocupacao = input(\"Digite a ocupação do estacionamento: \")\nif veiculos >= 80 and ocupacao >= 90:",
+        "note": "# ocupacao ficou como texto\n# Para comparar com 90, precisava converter para int ou float\n# Do jeito que está, a questão quebra na comparação"
+      }
+    ]
+  },
+  {
+    "listId": "1",
+    "token": "A8xT2mP6vQk5",
+    "name": "VINÍCIUS FERREIRA DO NASCIMENTO",
+    "score": 0,
+    "theme": "high_victory",
+    "overall": "Você foi muito bem na lista! De forma geral, deu para perceber que você entendeu a ideia principal das estruturas condicionais e conseguiu aplicar boa parte da lógica corretamente.",
+    "closing": "No geral, você mostrou que entendeu muito bem a base do conteúdo e resolveu a lista com boa lógica do começo ao fim. Seu código ficou consistente nas decisões e conseguiu cobrir corretamente os casos pedidos nas questões. Qualquer dúvida, estou à disposição para ajudar.",
+    "questions": [
+      {
+        "number": 1,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação foi feita do jeito esperado e a mensagem final também apareceu no formato pedido.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 2,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem as entradas booleanas em texto e aplicou corretamente a lógica do atendimento prioritário.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 3,
+        "score": "10/10",
+        "summary": "Resposta correta. A lógica cobre os casos com acidente em uma rota, nas duas rotas, sem acidente e também quando os tempos são iguais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 4,
+        "score": "10/10",
+        "summary": "Resposta correta. A classificação da entrega ficou coerente com as regras da questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 5,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou bem os intervalos e também validou corretamente valores fora de 0 a 100.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 6,
+        "score": "10/10",
+        "summary": "Resposta correta. Os perfis foram tratados de forma adequada e a saída está coerente com a questão.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 7,
+        "score": "10/10",
+        "summary": "Resposta correta. Você tratou corretamente os comandos válidos, inclusive \"onibus\" e \"ônibus\".",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 8,
+        "score": "10/10",
+        "summary": "Resposta correta. Você calculou o desconto, mostrou o percentual aplicado e exibiu o valor final com duas casas decimais.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      },
+      {
+        "number": 9,
+        "score": "10/10",
+        "summary": "Você identificou o problema principal da lógica e reorganizou as condições de forma que o caso passou a funcionar corretamente. Como sugestão, daria também para expandir a classificação completa, mas a ideia central da correção foi aplicada.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica\n# Como sugestão, você poderia expandir a classificação completa\n# Mas a correção principal da ordem das condições foi feita corretamente"
+      },
+      {
+        "number": 10,
+        "score": "10/10",
+        "summary": "Resposta correta. A ordem das decisões foi respeitada e a combinação das condições ficou certa.",
+        "errorLine": "# Sem erro relevante de lógica",
+        "note": "# Sem erro relevante de lógica"
+      }
+    ]
+  }
+]
