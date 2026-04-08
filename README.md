@@ -85,6 +85,26 @@ npm run build
 - painel de analise protegido por chave (`ANALYTICS_ACCESS_KEY`)
 - rate limit basico ativo nas rotas de feedback
 
+## Capturas de tela
+
+### Home
+
+![Home page](docs/screenshots/homepage.png)
+
+### Feedback individual
+
+![Feedback page](docs/screenshots/feedback-page.png)
+
+### Analise de questoes
+
+![Analise page](docs/screenshots/analytics-page.png)
+
+Coloque os arquivos de imagem nesses caminhos para renderizar no GitHub:
+
+- `docs/screenshots/homepage.png`
+- `docs/screenshots/feedback-page.png`
+- `docs/screenshots/analytics-page.png`
+
 ## Documentacao complementar
 
 Para manter este README objetivo, os detalhes operacionais foram mantidos em arquivos dedicados:
