@@ -99,12 +99,6 @@ npm run build
 
 ![Analise page](docs/screenshots/analytics-page.png)
 
-Coloque os arquivos de imagem nesses caminhos para renderizar no GitHub:
-
-- `docs/screenshots/homepage.png`
-- `docs/screenshots/feedback-page.png`
-- `docs/screenshots/analytics-page.png`
-
 ## Documentacao complementar
 
 Para manter este README objetivo, os detalhes operacionais foram mantidos em arquivos dedicados:
